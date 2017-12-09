@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  flex-wrap: wrap;
+}
+.nameAndLogo{
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid black;
+  padding-left: 30px;
+  justify-content: flex-start;
+  flex-grow: 3;
+}
+.nameAndLogo p{
+  padding: 10px 250px 10px 10px;
+  align-items: center;
+}
+.header nav{
+  display: inline-flex;
+  padding-right: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+span{
+  padding: 10px;
+}
+hr {
+  display: block;
+  position: relative;
+  top: 75px;
+  border: 0.5px solid black;
+}
