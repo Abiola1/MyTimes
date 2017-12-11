@@ -38,7 +38,7 @@ span, .header p{
 /*Body of the newsletter*/
 div.mainContainer{
   width: 1260px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   align-items: stretch;
   position: relative;
@@ -63,20 +63,20 @@ div.mainContainer{
 .left-column{
   display: block;
   width: 630px;
-  margin: 30px 15px 0px 0px;
+  margin: 0px 15px 40px 0px;
   flex-direction: column;
   justify-content: space-between;
 }
 .middle-column{
   display: inline-flex;
   width: 300px;
-  margin: 30px 15px 0px 15px;
+  margin: 0px 15px 40px 15px;
   flex-direction: column;
 }
 .right-column{
   display: inline-flex;
   width: 240px;
-  margin: 30px 30px 0px 15px;
+  margin: 0px 30px 40px 15px;
   flex-direction: column;
   align-items: center;
 }
@@ -129,4 +129,32 @@ div.mainContainer{
   font-size: 12px;
   color: DimGray;
   border-bottom: 1px solid black;
+}
+footer {
+  display: inline-flex;
+  flex-flow: column wrap;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+.footerTitle {
+  display: inline-flex;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 40px;
+  border-right: 3px solid white;
+}
+footer nav {
+  display: inline-flex;
+  margin-left: 30px;
 }
